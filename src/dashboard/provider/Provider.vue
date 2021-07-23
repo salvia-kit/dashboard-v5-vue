@@ -20,7 +20,7 @@ export default {
 
     // close side navigation when you click on a sidenav item.
     // set the html tag overflow to hidden
-    const closeOnMobile = () => {
+    const closeOnRouteChange = () => {
       if (open.value === true) {
         open.value = false;
         document.documentElement.style.overflow = 'hidden';
@@ -29,7 +29,7 @@ export default {
 
     // close sidenav when route changes
     watch(route, () => {
-      closeOnMobile();
+      closeOnRouteChange();
     });
 
     provide('open', readonly(open));
