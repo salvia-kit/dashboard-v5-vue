@@ -11,8 +11,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'AnalyticsIcon',
-};
-</script>
+<script setup></script>

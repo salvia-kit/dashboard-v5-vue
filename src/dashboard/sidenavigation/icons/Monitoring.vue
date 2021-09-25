@@ -13,8 +13,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'MonitoringIcon',
-};
-</script>
+<script setup></script>

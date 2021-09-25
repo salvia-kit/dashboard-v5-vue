@@ -13,8 +13,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'ApplicationsIcon',
-};
-</script>
+<script setup></script>

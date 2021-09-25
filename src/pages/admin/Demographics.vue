@@ -2,10 +2,6 @@
   <Content title="Demographic Data" />
 </template>
 
-<script>
+<script setup>
 import Content from '../../components/Content.vue';
-export default {
-  name: 'DemographicDataPage',
-  components: { Content },
-};
 </script>

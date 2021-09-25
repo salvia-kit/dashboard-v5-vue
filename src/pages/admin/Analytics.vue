@@ -2,13 +2,6 @@
   <Content title="Analytics" />
 </template>
 
-<script>
+<script setup>
 import Content from '../../components/Content.vue';
-
-export default {
-  name: 'AnalyticsPage',
-  components: {
-    Content,
-  },
-};
 </script>

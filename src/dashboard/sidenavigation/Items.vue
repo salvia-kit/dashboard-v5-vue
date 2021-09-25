@@ -30,7 +30,7 @@
   </ul>
 </template>
 
-<script>
+<script setup>
 import SidenavItem from './Item.vue';
 
 /* ICONS */
@@ -41,18 +41,4 @@ import MonitoringIcon from './icons/Monitoring.vue';
 import DemographicsIcon from './icons/Demographics.vue';
 import ApplicationsIcon from './icons/Applications.vue';
 import DocumentationIcon from './icons/Documentation.vue';
-
-export default {
-  name: 'SidenavItems',
-  components: {
-    HomeIcon,
-    BillsIcon,
-    SidenavItem,
-    AnalyticsIcon,
-    MonitoringIcon,
-    DemographicsIcon,
-    ApplicationsIcon,
-    DocumentationIcon,
-  },
-};
 </script>

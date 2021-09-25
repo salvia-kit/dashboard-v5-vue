@@ -15,8 +15,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'BillsIcon',
-};
-</script>
+<script setup></script>

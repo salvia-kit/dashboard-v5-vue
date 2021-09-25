@@ -5,7 +5,7 @@
         <Overlay />
         <side-navigation mobile-position="right" />
         <div class="flex flex-col h-screen pl-0 w-full lg:pl-24 lg:space-y-4">
-          <TopNavigation />
+          <top-navigation />
           <main class="h-screen overflow-auto pb-36 pt-4 px-2 md:pb-8 lg:px-4">
             <slot />
           </main>
@@ -15,14 +15,9 @@
   </dashboard-provider>
 </template>
 
-<script>
+<script setup>
 import Overlay from './provider/Overlay.vue';
 import TopNavigation from './topnavigation/Index.vue';
 import SideNavigation from './sidenavigation/Index.vue';
 import DashboardProvider from './provider/Provider.vue';
-
-export default {
-  name: 'DashboardLayout',
-  components: { DashboardProvider, Overlay, SideNavigation, TopNavigation },
-};
 </script>
